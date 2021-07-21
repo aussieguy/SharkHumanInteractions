@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FE3716AE6ABC022BAC591AD /* Pods_SharkHumanInteractions5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE683FD35998B04568EB432 /* Pods_SharkHumanInteractions5.framework */; };
+		CD2E88BD26244E6300BA3262 /* Shark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD2E88BC26244E6300BA3262 /* Shark.jpg */; };
+		CD2FC0B326071A7C005FDEB9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FC0B226071A7B005FDEB9 /* MainViewController.swift */; };
+		CD2FC0B826071D6D005FDEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2FC0B726071D6D005FDEB9 /* LaunchScreen.storyboard */; };
+		CD2FC0BF260C70E3005FDEB9 /* ImportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2FC0BE260C70E2005FDEB9 /* ImportData.swift */; };
+		CD448F5226959105009FD679 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = CD448F5126959105009FD679 /* fish.png */; };
+		CD6CE24325C00DF800C7023B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6CE24225C00DF800C7023B /* AppDelegate.swift */; };
+		CD6CE24525C00DF800C7023B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6CE24425C00DF800C7023B /* SceneDelegate.swift */; };
+		CD6CE24725C00DF800C7023B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6CE24625C00DF800C7023B /* ViewController.swift */; };
+		CD6CE24A25C00DF800C7023B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6CE24825C00DF800C7023B /* Main.storyboard */; };
+		CD6CE24D25C00DF800C7023B /* SharkHumanInteractions5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD6CE24B25C00DF800C7023B /* SharkHumanInteractions5.xcdatamodeld */; };
+		CD6CE24F25C00E0200C7023B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6CE24E25C00E0200C7023B /* Assets.xcassets */; };
+		CD6CE25C25C00EE100C7023B /* People+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6CE25A25C00EE100C7023B /* People+CoreDataClass.swift */; };
+		CD6CE25D25C00EE100C7023B /* People+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6CE25B25C00EE100C7023B /* People+CoreDataProperties.swift */; };
+		CD798DAB26551ED000EF1DFF /* shark_fin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD798DAA26551ED000EF1DFF /* shark_fin.jpg */; };
+		CD95A7BF25C915EB00C196EF /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A7BE25C915EB00C196EF /* DetailsTableViewController.swift */; };
+		CD95A7C425C92A3400C196EF /* sharkAttacks_up_to_end_of_2020.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD95A7C325C92A3400C196EF /* sharkAttacks_up_to_end_of_2020.csv */; };
+		CD95A7E125CE640900C196EF /* FetchLatLongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A7E025CE640900C196EF /* FetchLatLongViewController.swift */; };
+		CDAC236B25D8E35200CB4FB7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC236A25D8E35200CB4FB7 /* MapViewController.swift */; };
+		CDDE1424268803F6009DC9A8 /* LatAndLong.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDDE1423268803F6009DC9A8 /* LatAndLong.txt */; };
+		CDF444AD2676E30200F64994 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF444AC2676E30200F64994 /* SettingsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15D3103E4C22D23719657B8B /* Pods-SharkHumanInteractions5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharkHumanInteractions5.release.xcconfig"; path = "Target Support Files/Pods-SharkHumanInteractions5/Pods-SharkHumanInteractions5.release.xcconfig"; sourceTree = "<group>"; };
+		4DD19AF8A77F3AEF8DAE978C /* Pods-SharkHumanInteractions5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharkHumanInteractions5.debug.xcconfig"; path = "Target Support Files/Pods-SharkHumanInteractions5/Pods-SharkHumanInteractions5.debug.xcconfig"; sourceTree = "<group>"; };
+		CD2E88BC26244E6300BA3262 /* Shark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shark.jpg; sourceTree = "<group>"; };
+		CD2FC0B226071A7B005FDEB9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CD2FC0B726071D6D005FDEB9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD2FC0BE260C70E2005FDEB9 /* ImportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportData.swift; sourceTree = "<group>"; };
+		CD448F5126959105009FD679 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		CD6CE23F25C00DF800C7023B /* SharkHumanInteractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharkHumanInteractions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6CE24225C00DF800C7023B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6CE24425C00DF800C7023B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD6CE24625C00DF800C7023B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD6CE24925C00DF800C7023B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6CE24C25C00DF800C7023B /* SharkHumanInteractions5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SharkHumanInteractions5.xcdatamodel; sourceTree = "<group>"; };
+		CD6CE24E25C00E0200C7023B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6CE25325C00E0200C7023B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6CE25A25C00EE100C7023B /* People+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD6CE25B25C00EE100C7023B /* People+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "People+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD798DAA26551ED000EF1DFF /* shark_fin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shark_fin.jpg; sourceTree = "<group>"; };
+		CD95A7BE25C915EB00C196EF /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		CD95A7C325C92A3400C196EF /* sharkAttacks_up_to_end_of_2020.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sharkAttacks_up_to_end_of_2020.csv; sourceTree = "<group>"; };
+		CD95A7E025CE640900C196EF /* FetchLatLongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchLatLongViewController.swift; sourceTree = "<group>"; };
+		CDAC236A25D8E35200CB4FB7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CDDE1423268803F6009DC9A8 /* LatAndLong.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LatAndLong.txt; path = ../../../../../LatAndLong.txt; sourceTree = "<group>"; };
+		CDF444AC2676E30200F64994 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		FFE683FD35998B04568EB432 /* Pods_SharkHumanInteractions5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharkHumanInteractions5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6CE23C25C00DF800C7023B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE3716AE6ABC022BAC591AD /* Pods_SharkHumanInteractions5.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79377E5AA6E4473D931640CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE683FD35998B04568EB432 /* Pods_SharkHumanInteractions5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9B12F7E6FEC8A319D2CAF23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DD19AF8A77F3AEF8DAE978C /* Pods-SharkHumanInteractions5.debug.xcconfig */,
+				15D3103E4C22D23719657B8B /* Pods-SharkHumanInteractions5.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD6CE23625C00DF800C7023B = {
+			isa = PBXGroup;
+			children = (
+				CD6CE25A25C00EE100C7023B /* People+CoreDataClass.swift */,
+				CD6CE25B25C00EE100C7023B /* People+CoreDataProperties.swift */,
+				CD6CE24125C00DF800C7023B /* SharkHumanInteractions5 */,
+				CD6CE24025C00DF800C7023B /* Products */,
+				C9B12F7E6FEC8A319D2CAF23 /* Pods */,
+				79377E5AA6E4473D931640CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6CE24025C00DF800C7023B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6CE23F25C00DF800C7023B /* SharkHumanInteractions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6CE24125C00DF800C7023B /* SharkHumanInteractions5 */ = {
+			isa = PBXGroup;
+			children = (
+				CDA7E4312647ADB700494BFC /* Assets */,
+				CD6CE24225C00DF800C7023B /* AppDelegate.swift */,
+				CD6CE24425C00DF800C7023B /* SceneDelegate.swift */,
+				CD95A7E025CE640900C196EF /* FetchLatLongViewController.swift */,
+				CD2FC0BE260C70E2005FDEB9 /* ImportData.swift */,
+				CD6CE24625C00DF800C7023B /* ViewController.swift */,
+				CD2FC0B226071A7B005FDEB9 /* MainViewController.swift */,
+				CD95A7BE25C915EB00C196EF /* DetailsTableViewController.swift */,
+				CDF444AC2676E30200F64994 /* SettingsTableViewController.swift */,
+				CDAC236A25D8E35200CB4FB7 /* MapViewController.swift */,
+				CD6CE24825C00DF800C7023B /* Main.storyboard */,
+				CD6CE24E25C00E0200C7023B /* Assets.xcassets */,
+				CD2FC0B726071D6D005FDEB9 /* LaunchScreen.storyboard */,
+				CD6CE25325C00E0200C7023B /* Info.plist */,
+				CD6CE24B25C00DF800C7023B /* SharkHumanInteractions5.xcdatamodeld */,
+			);
+			path = SharkHumanInteractions5;
+			sourceTree = "<group>";
+		};
+		CDA7E4312647ADB700494BFC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CD798DAA26551ED000EF1DFF /* shark_fin.jpg */,
+				CD448F5126959105009FD679 /* fish.png */,
+				CD95A7C325C92A3400C196EF /* sharkAttacks_up_to_end_of_2020.csv */,
+				CDDE1423268803F6009DC9A8 /* LatAndLong.txt */,
+				CD2E88BC26244E6300BA3262 /* Shark.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6CE23E25C00DF800C7023B /* SharkHumanInteractions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6CE25625C00E0200C7023B /* Build configuration list for PBXNativeTarget "SharkHumanInteractions" */;
+			buildPhases = (
+				6DBB1B32C9271CAFCCEF1176 /* [CP] Check Pods Manifest.lock */,
+				CD6CE23B25C00DF800C7023B /* Sources */,
+				CD6CE23C25C00DF800C7023B /* Frameworks */,
+				CD6CE23D25C00DF800C7023B /* Resources */,
+				BB8A45ED8DAE9E589351B0EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharkHumanInteractions;
+			productName = SharkHumanInteractions5;
+			productReference = CD6CE23F25C00DF800C7023B /* SharkHumanInteractions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6CE23725C00DF800C7023B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CD6CE23E25C00DF800C7023B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CD6CE23A25C00DF800C7023B /* Build configuration list for PBXProject "SharkHumanInteractions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6CE23625C00DF800C7023B;
+			productRefGroup = CD6CE24025C00DF800C7023B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6CE23E25C00DF800C7023B /* SharkHumanInteractions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6CE23D25C00DF800C7023B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDE1424268803F6009DC9A8 /* LatAndLong.txt in Resources */,
+				CD95A7C425C92A3400C196EF /* sharkAttacks_up_to_end_of_2020.csv in Resources */,
+				CD2E88BD26244E6300BA3262 /* Shark.jpg in Resources */,
+				CD6CE24F25C00E0200C7023B /* Assets.xcassets in Resources */,
+				CD2FC0B826071D6D005FDEB9 /* LaunchScreen.storyboard in Resources */,
+				CD448F5226959105009FD679 /* fish.png in Resources */,
+				CD6CE24A25C00DF800C7023B /* Main.storyboard in Resources */,
+				CD798DAB26551ED000EF1DFF /* shark_fin.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DBB1B32C9271CAFCCEF1176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharkHumanInteractions5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8A45ED8DAE9E589351B0EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharkHumanInteractions5/Pods-SharkHumanInteractions5-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharkHumanInteractions5/Pods-SharkHumanInteractions5-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SharkHumanInteractions5/Pods-SharkHumanInteractions5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6CE23B25C00DF800C7023B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6CE24725C00DF800C7023B /* ViewController.swift in Sources */,
+				CD2FC0B326071A7C005FDEB9 /* MainViewController.swift in Sources */,
+				CD95A7E125CE640900C196EF /* FetchLatLongViewController.swift in Sources */,
+				CD6CE24325C00DF800C7023B /* AppDelegate.swift in Sources */,
+				CD2FC0BF260C70E3005FDEB9 /* ImportData.swift in Sources */,
+				CD6CE25C25C00EE100C7023B /* People+CoreDataClass.swift in Sources */,
+				CDAC236B25D8E35200CB4FB7 /* MapViewController.swift in Sources */,
+				CD6CE24D25C00DF800C7023B /* SharkHumanInteractions5.xcdatamodeld in Sources */,
+				CDF444AD2676E30200F64994 /* SettingsTableViewController.swift in Sources */,
+				CD6CE25D25C00EE100C7023B /* People+CoreDataProperties.swift in Sources */,
+				CD95A7BF25C915EB00C196EF /* DetailsTableViewController.swift in Sources */,
+				CD6CE24525C00DF800C7023B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD6CE24825C00DF800C7023B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6CE24925C00DF800C7023B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6CE25425C00E0200C7023B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6CE25525C00E0200C7023B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6CE25725C00E0200C7023B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD19AF8A77F3AEF8DAE978C /* Pods-SharkHumanInteractions5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 479V4MWUZF;
+				INFOPLIST_FILE = SharkHumanInteractions5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glenhobby.SharkHumanInteractions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CD6CE25825C00E0200C7023B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D3103E4C22D23719657B8B /* Pods-SharkHumanInteractions5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 479V4MWUZF;
+				INFOPLIST_FILE = SharkHumanInteractions5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.glenhobby.SharkHumanInteractions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6CE23A25C00DF800C7023B /* Build configuration list for PBXProject "SharkHumanInteractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6CE25425C00E0200C7023B /* Debug */,
+				CD6CE25525C00E0200C7023B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6CE25625C00E0200C7023B /* Build configuration list for PBXNativeTarget "SharkHumanInteractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6CE25725C00E0200C7023B /* Debug */,
+				CD6CE25825C00E0200C7023B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD6CE24B25C00DF800C7023B /* SharkHumanInteractions5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD6CE24C25C00DF800C7023B /* SharkHumanInteractions5.xcdatamodel */,
+			);
+			currentVersion = CD6CE24C25C00DF800C7023B /* SharkHumanInteractions5.xcdatamodel */;
+			path = SharkHumanInteractions5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD6CE23725C00DF800C7023B /* Project object */;
+}
